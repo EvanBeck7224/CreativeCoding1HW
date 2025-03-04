@@ -1,0 +1,21 @@
+<html>
+    <title>dinosaurs</title>
+    <head>
+        
+    </head>   
+    
+    <body>
+this is my dinosaur website   
+<p>
+    <form action="nextPage.html" type="POST">
+    
+            best dinosaur? <input type="text"><br>
+           
+            <button id="Submit" type="submit">Submit</button>            
+     </form>
+      
+<a href="triceratops.html"><img src="triceratops.jpg"/></a>
+<a href="dino.html"><img src="dino.png"/></a>
+
+    </body>
+</html>
