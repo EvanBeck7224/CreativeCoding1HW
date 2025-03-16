@@ -1,0 +1,49 @@
+<html>
+<title>
+Dinosaur Math
+</title>
+<head>
+<script>
+        var realanswer;
+        var wrong;
+        let score = 0;
+        function printquestion()
+        {
+            var number1 = Math.floor(Math.random() * 10);
+            var number2 = Math.floor(Math.random() * 10);
+            realanswer = number1 + number2;
+            document.getElementById("question").innerHTML = "Here is a fun dinosaur-themed learning game! What is " + number1 + "+" + number2 + "?" + "<br> <br> CORRECT ANSWERS:   "+ score;
+
+        }
+        function answerchecker()
+        {
+            var answer = document.getElementById("txtanswer").value;
+            if(answer == realanswer)
+                {
+                    score = score + 1;
+                    document.getElementById("finalresult").innerHTML = "You are so smart! T-Rex would be proud of you!";
+                    printquestion();
+                    document.getElementById("txtanswer").value = ''
+                }
+            else
+                {
+                    document.getElementById("finalresult").innerHTML = "Grimlock could have solved that better than you. I am thoroughly disappointed.";
+                 }
+        }
+</script>
+</head>
+<body onload="printquestion()">
+    <div id="question"></div>
+        <table>
+            <tr>
+                <td>Dinosaur Answer:
+                </td>
+                <td><input type="text" id="txtanswer"></td>
+            </tr>
+            <tr>
+                <td colspan="2"><br><button id="btnsubmit" onClick="answerchecker();">Dinosaur Submit Button</button></button></td>
+            </tr>
+    </table>
+    <div id="finalresult"></div>
+</body>
+</html>

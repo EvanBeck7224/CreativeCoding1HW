@@ -1,0 +1,22 @@
+.yellow{
+    color:yellow;
+}
+
+.green{
+    color:green;
+}
+.red{
+    color:red;
+}
+.grimlock{
+    background-image:url(Images/grimlock.gif);
+}
+#big{
+    font-size:48px;
+}
+#normal{
+    font-size:24px;
+}
+#yellowhighlight{
+    background-color:yellow;
+}

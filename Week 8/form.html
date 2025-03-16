@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <script>
+            function submission() {
+                var name = document.getElementById("name").value; 
+                var number = document.getElementById("number").value; 
+                var address = document.getElementById("address").value; 
+                if (name.trim() === "" || number.trim() === "" || address.trim() === "") {
+                    alert("Do not test my patience. Fill out the form.");
+                    return false;
+                }
+                alert("You will hear from me within the week.");
+                return true; 
+            }
+        </script>
+    </head>
+    <body>
+        <form onsubmit="return submission()">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name"><br>
+            <label for="number">Phone Number:</label><br>
+            <input type="text" id="number" name="number"><br>
+            <label for="address">Email Address:</label><br>
+            <input type="text" id="address" name="address"><br><br>
+            <button type="submit">SUBMIT HERE</button> 
+        </form>
+    </body>
+</html>
