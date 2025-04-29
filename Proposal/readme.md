@@ -1,0 +1,17 @@
+<p>
+Final Project Proposal
+
+For my final project I have an idea for a video game where you control a chameleon collecting falling bugs on a branch. In order to catch a bug, the player is to press a button to extend the chameleon’s tongue. I have not yet decided on an obstacle for the game, but I think it could be interesting to have the chameleon avoid a bird who is trying to eat it. Once the chameleon has eaten enough bugs, you go back into your tree and win the game. 
+
+For this project, I would like to incorporate hand drawn simple cartoon art for the sprites. I know I can incorporate images into p5js, but to what extent I really need to play around with to find out. I think it would be really fun to get my girlfriend involved who plays metal music to create a small soundtrack for my game so that it isn’t completely silent. 
+
+For this entire semester, I have been kind of obsessed with making “animal games” for some reason, and I feel like this project will be the natural conclusion of the idea using what I have learned from this class. 
+
+A problem I feel like I will have to solve is implementing the obstacle in a natural, fun, and fair way. In all of the other games I have made for this class, obstacles were really difficult to balance. I am not even set on what kind of obstacle I would like to incorporate, but I am really leaning towards my bird idea. 
+
+I plan on creating the art after I have already coded most of the game. I will need to find a way to scale the art that I have created with the hitboxes of the sprites I make. I am not sure how I will incorporate it but I will find a way. 
+
+It is really difficult for me to find influences for this project as most of my artistic influences are not applicable to animal games. I think my love for animals is a very clear influence. I also think that the examples provided from previous students are a big influence for me right now. 
+
+I have not coded the game as of now, but developing the idea through this proposal has been incredibly productive for me. I plan on starting development of the game on the 29th. With an hour or two of work every day from then, I will be able to meet the deadline for the project. I am very excited to see how this turns out.
+</p>
